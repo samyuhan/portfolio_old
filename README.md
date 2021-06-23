@@ -17,6 +17,7 @@ Flexbox was used for the display/positioning of the content.
     align-items: flex-start;
     margin-left: 100px;
 }
+```
 
 To change the image background when hovering over it, I added:
 ```html
@@ -24,7 +25,6 @@ To change the image background when hovering over it, I added:
     background-color: grey;
     opacity: 0.7
 }
-```
 ```
 
 ## Application Functioning
