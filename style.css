@@ -18,8 +18,28 @@ nav a {
     padding: 30px 25px;
 }
 
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
 figure img {
     width: 100%;
+}
+
+.text h2 {
+    position: relative;
+}
+
+.about p {
+    position: relative;
+    left: 100px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -42,4 +62,21 @@ figure img {
 
 .container img {
     display: inline;
+    border: 10px solid pink;
+}
+
+.led, .calculator, .puzzel, .buddy {
+    position: relative;
+    width: 50%;
+}
+
+.container img:hover {
+    background-color: grey;
+    opacity: 0.7
+}
+
+.contact ul li {
+    display: inline;
+    padding: 50px;
+    align-content: center;
 }
