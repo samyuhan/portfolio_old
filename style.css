@@ -9,6 +9,7 @@ header h1 {
     display: inline;
     float: left;
 }
+
 nav {
     background-color: grey;
     padding: 30px;
@@ -32,15 +33,25 @@ nav ul li {
 }
 
 figure img {
+    display: inline;
     width: 100%;
+}
+
+figure p {
+    display: inline;
+    position: absolute;
+    top: 375px;
+    right: 125px;
+    background-color: pink;
+    padding: 15px;
+    font-size: 25px;
 }
 
 .text h2 {
     position: relative;
 }
 
-.about p {
-    position: relative;
+.about-me p {
     left: 100px;
     display: flex;
     flex-wrap: wrap;
@@ -99,8 +110,7 @@ figure img {
     opacity: 0.7
 }
 
-.contact ul li {
+.contact-me ul li {
     display: inline;
     padding: 50px;
-    align-content: center;
 }
