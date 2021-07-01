@@ -1,5 +1,12 @@
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: grey;
+    height: 130px;
 }
 
 header h1 {
@@ -16,6 +23,7 @@ nav {
     padding-left: 500px;
     margin: 15px;
     float: right;
+    scroll-behavior: smooth;
 }
 
 nav a {
@@ -47,14 +55,21 @@ figure p {
     font-size: 25px;
 }
 
-.text h2 {
-    position: relative;
+aside {
+    /*border-right: 3px solid black;*/
+
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
 
 .about-me p {
     left: 100px;
-    display: flex;
-    flex-wrap: wrap;
+    width: 75%;
 }
 
 .container {
@@ -90,15 +105,25 @@ figure p {
 
 .report {
     position: relative;
+    outline: 3px solid black;
+    width: 1000px;
+    height: 100px;
 }
 
-.report h3 {
+.img {
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/001/218/845/non_2x/colorful-holographic-gradient-background-design-vector.jpg");
+*/
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+/* .report h3 {
     top: 150px;
 }
 
 .report p {
     top: 200px;
-}
+} */
 
 .led, .calculator, .puzzel, .buddy {
     position: relative;
